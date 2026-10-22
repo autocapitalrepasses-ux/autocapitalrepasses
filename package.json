@@ -1,0 +1,11 @@
+{
+  "name": "auto-capital-repasses",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site Auto Capital Repasses (estático) com leads no Supabase, hospedado no Netlify",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && npx serve dist"
+  },
+  "engines": { "node": ">=18" }
+}
