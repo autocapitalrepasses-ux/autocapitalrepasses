@@ -25,8 +25,9 @@
   .aviso-icon{font-size:1.4rem;line-height:1.2;flex:none}
   .aviso-title{font-size:.92rem;font-weight:700;color:#fff;margin-bottom:.2rem}
   .aviso-desc{font-size:.82rem;color:var(--silver);line-height:1.55}
-  .contato{text-align:center;margin-top:1.4rem;color:var(--silver);font-size:.9rem}
-  .contato a{color:var(--gold-light);font-weight:700;text-decoration:none}
+  .contato{text-align:center;margin-top:2rem;color:var(--silver)}
+  .contato-label{display:block;font-size:1rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.3rem}
+  .contato a{display:block;color:var(--gold-light);font-weight:800;text-decoration:none;font-size:clamp(2rem,9.5vw,3.2rem);line-height:1.1;letter-spacing:.01em;white-space:nowrap}
 
   .hero{text-align:center;padding:2rem 1.5rem 1.6rem;position:relative;overflow:hidden}
   .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 30%,rgba(205,154,63,.08) 0%,transparent 70%);pointer-events:none}
@@ -72,6 +73,8 @@
   .form-group{margin-bottom:1.2rem}
   .form-label{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gray);margin-bottom:.4rem}
   .form-input,.form-textarea{width:100%;background:var(--bg-2);border:1px solid #262019;border-radius:6px;padding:12px 14px;color:var(--white);font-size:.95rem;font-family:inherit}
+  .form-input,.form-textarea{text-transform:uppercase;font-weight:700}
+  .form-input::placeholder,.form-textarea::placeholder{text-transform:none;font-weight:400;opacity:.55}
   .form-input:focus,.form-textarea:focus{outline:none;border-color:var(--gold)}
   .form-textarea{resize:vertical;min-height:90px}
 
