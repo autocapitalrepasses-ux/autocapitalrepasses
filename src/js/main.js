@@ -109,6 +109,7 @@
     linhas.push('Aguardo retorno, obrigado!');
     var texto = linhas.join('\n');
 
-    window.open('https://wa.me/' + WPP + '?text=' + encodeURIComponent(texto), '_blank');
+    // Link direto da API do WhatsApp (o wa.me so redireciona para este mesmo endereco)
+    window.open('https://api.whatsapp.com/send?phone=' + WPP + '&text=' + encodeURIComponent(texto), '_blank');
   };
 })();
