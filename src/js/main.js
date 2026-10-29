@@ -93,7 +93,7 @@
 
     // *texto* = negrito no WhatsApp
     var linhas = [];
-    linhas.push('Ol\u00e1, Auto Capital Repasses! ' + E.ola);
+    linhas.push('Ol\u00e1, AutoHub Repasses! ' + E.ola);
     linhas.push('');
     linhas.push('Estou procurando um carro, pode me ajudar a encontrar?');
     linhas.push('');

@@ -1,4 +1,4 @@
-# Auto Capital Repasses
+# AutoHub Repasses
 
 Site estático (HTML/CSS/JS puro) · leads salvos no **Supabase** · deploy no **Netlify** via **GitHub**.
 
@@ -36,12 +36,12 @@ Site estático (HTML/CSS/JS puro) · leads salvos no **Supabase** · deploy no *
 
 ### 2. GitHub
 ```bash
-cd auto-capital-repasses
+cd autohub-repasses
 git init
 git add .
 git commit -m "Primeira versão do site"
 git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/auto-capital-repasses.git
+git remote add origin https://github.com/SEU-USUARIO/autohub-repasses.git
 git push -u origin main
 ```
 

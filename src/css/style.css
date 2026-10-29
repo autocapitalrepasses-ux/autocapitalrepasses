@@ -29,6 +29,9 @@
   .contato-label{display:block;font-size:1rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.3rem}
   .contato a{display:block;color:var(--gold-light);font-weight:800;text-decoration:none;font-size:clamp(2rem,9.5vw,3.2rem);line-height:1.1;letter-spacing:.01em;white-space:nowrap}
 
+  .contato-email{margin-top:1.4rem}
+  .contato.contato-email a{font-size:clamp(1rem,5vw,1.4rem);font-weight:700;white-space:normal;word-break:break-all}
+
   .hero{text-align:center;padding:2rem 1.5rem 1.6rem;position:relative;overflow:hidden}
   .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 30%,rgba(205,154,63,.08) 0%,transparent 70%);pointer-events:none}
   .hero h1{font-family:'Oswald',sans-serif;font-size:clamp(1.8rem,5.5vw,2.9rem);font-weight:600;line-height:1.2;margin-bottom:1rem;position:relative}
