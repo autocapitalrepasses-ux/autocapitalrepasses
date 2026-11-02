@@ -4,6 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # A chave anon/publishable do Supabase é pública por natureza (a segurança vem do RLS).
+  # Sem isto, o scanner de segredos do Netlify derruba o build ao achá-la em dist/js/config.js.
+  SECRETS_SCAN_OMIT_KEYS = "SUPABASE_URL,SUPABASE_ANON_KEY"
 
 [[headers]]
   for = "/*"
